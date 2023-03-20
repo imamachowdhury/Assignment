@@ -13,7 +13,7 @@ $query = "SELECT AVG(salary) FROM employees";
 $query = "SELECT COUNT(*) FROM employees WHERE department = 'Marketing'";
 
 // Write a query to update the salary column of the employee with an id of 1001 to 60000.
-$query = "UPDATE employees SET salary = 60000 WHERE id = 1001 TO 60000";
+$query = "UPDATE employees SET salary = 60000 WHERE id = 1001";
 
 // Write a query to delete all employees whose salary is less than 30000.
 $query = "DELETE FROM employees WHERE salary < 30000";
