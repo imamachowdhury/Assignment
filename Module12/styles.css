@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #bmiForm {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  input, button {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #result {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
